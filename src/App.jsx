@@ -1,17 +1,16 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
 import { translations } from './locales'
 
 function App() {
   const [activeTab, setActiveTab] = useState('support')
-  const [language, setLanguage] = useState('en')
-
-  useEffect(() => {
-    const savedLang = localStorage.getItem('didit-language')
-    if (savedLang) {
-      setLanguage(savedLang)
+  const [language, setLanguage] = useState(() => {
+    try {
+      return localStorage.getItem('didit-language') || 'en'
+    } catch {
+      return 'en'
     }
-  }, [])
+  })
 
   const handleLanguageChange = (lang) => {
     setLanguage(lang)
