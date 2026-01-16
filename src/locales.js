@@ -26,6 +26,10 @@ export const translations = {
           q: "Will the quotes be updated?",
           a: "Quote content is updated with app updates. New versions may add new quotes to bring you more diverse inspirational content.",
         },
+        {
+          q: "What quotes are included in the current version?",
+          a: "Current version quotes (v1.0):\n\n0% Progress:\n- Zero? Really? The day is dying, and so are your dreams.\n- I see you haven't started. The panic monster is watching.\n- Add a goal. I'm bored.\n\n50% Progress:\n- Halfway there. Don't stop now or it doesn't count.\n- Consistency is key, and you are currently looking for the lock.\n- One task down. Infinity to go.\n- Small steps. Tiny, microscopic steps. But steps nonetheless.\n- Are you going to do it, or do I have to shame you?\n- If you skip today, you'll probably skip tomorrow. Just saying.\n\n100% Progress:\n- You did it. I'm actually impressed. See you tomorrow.\n- Look at you, being all productive. Who are you trying to impress?\n\nQuotes will continue to be updated in future versions.",
+        },
       ],
     },
     privacy: {
@@ -86,6 +90,10 @@ export const translations = {
         {
           q: "金句内容会更新吗？",
           a: "金句内容会在应用更新时同步更新。新版本可能会添加新的句子，为您带来更多样的启发内容。",
+        },
+        {
+          q: "当前版本包含哪些金句？",
+          a: "当前版本金句（v1.0）：\n\n0% 完成进度：\n- 零进度？天都要黑了，你的梦想也快凉了。\n- 你今天的借口找好了吗？没找好就去干活。\n- 加个目标吧，我很无聊。\n\n50% 完成进度：\n- 才做了一半？行百里者半九十，别在这时候掉链子。\n- 持续性混吃等死，间歇性踌躇满志？动起来！\n- 万事开头难，然后中间难，最后结尾难。但你得做。\n- 一小步也是进步，虽然小得看不见，但总比不动强。\n- 今天鸽了，明天也会鸽。拖延症是绝症，得治。\n- 比你优秀的人还在努力，你努力还有什么用？开玩笑的，快去做。\n\n100% 完成进度：\n- 竟然全做完了？有点意外，明天继续保持。\n- 哟，今天表现不错嘛，是不是偷偷吃兴奋剂了？\n\n金句内容将在后续版本中持续更新。",
         },
       ],
     },
